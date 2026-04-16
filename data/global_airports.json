@@ -1,0 +1,932 @@
+{
+  "meta": {
+    "region": "Global (Intercontinental)",
+    "currency": "USD",
+    "notes": "Global ATC scenario with major international hubs and realistic volumetric pricing."
+  },
+  "airports": [
+    {
+      "id": "DEL",
+      "name": "Indira Gandhi Int",
+      "city": "New Delhi",
+      "country": "India",
+      "lat": 28.5562,
+      "lon": 77.1,
+      "region": "international"
+    },
+    {
+      "id": "BOM",
+      "name": "Chhatrapati Shivaji",
+      "city": "Mumbai",
+      "country": "India",
+      "lat": 19.0896,
+      "lon": 72.8656,
+      "region": "international"
+    },
+    {
+      "id": "JFK",
+      "name": "John F. Kennedy Int",
+      "city": "New York",
+      "country": "USA",
+      "lat": 40.6413,
+      "lon": -73.7781,
+      "region": "international"
+    },
+    {
+      "id": "LAX",
+      "name": "Los Angeles Int",
+      "city": "Los Angeles",
+      "country": "USA",
+      "lat": 33.9416,
+      "lon": -118.4085,
+      "region": "international"
+    },
+    {
+      "id": "SFO",
+      "name": "San Francisco Int",
+      "city": "San Francisco",
+      "country": "USA",
+      "lat": 37.6213,
+      "lon": -122.379,
+      "region": "international"
+    },
+    {
+      "id": "LHR",
+      "name": "Heathrow",
+      "city": "London",
+      "country": "UK",
+      "lat": 51.47,
+      "lon": -0.4543,
+      "region": "international"
+    },
+    {
+      "id": "CDG",
+      "name": "Charles de Gaulle",
+      "city": "Paris",
+      "country": "France",
+      "lat": 49.0097,
+      "lon": 2.5479,
+      "region": "international"
+    },
+    {
+      "id": "FRA",
+      "name": "Frankfurt Airport",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "lat": 50.0379,
+      "lon": 8.5622,
+      "region": "international"
+    },
+    {
+      "id": "AMS",
+      "name": "Schiphol",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "lat": 52.3105,
+      "lon": 4.7683,
+      "region": "international"
+    },
+    {
+      "id": "MAD",
+      "name": "Adolfo Suárez",
+      "city": "Madrid",
+      "country": "Spain",
+      "lat": 40.4983,
+      "lon": -3.5676,
+      "region": "international"
+    },
+    {
+      "id": "DXB",
+      "name": "Dubai Int",
+      "city": "Dubai",
+      "country": "UAE",
+      "lat": 25.2532,
+      "lon": 55.3657,
+      "region": "international"
+    },
+    {
+      "id": "DOH",
+      "name": "Hamad Int",
+      "city": "Doha",
+      "country": "Qatar",
+      "lat": 25.2731,
+      "lon": 51.608,
+      "region": "international"
+    },
+    {
+      "id": "SIN",
+      "name": "Changi",
+      "city": "Singapore",
+      "country": "Singapore",
+      "lat": 1.3644,
+      "lon": 103.9915,
+      "region": "international"
+    },
+    {
+      "id": "HKG",
+      "name": "Hong Kong Int",
+      "city": "Hong Kong",
+      "country": "China",
+      "lat": 22.308,
+      "lon": 113.9185,
+      "region": "international"
+    },
+    {
+      "id": "PEK",
+      "name": "Beijing Capital Int",
+      "city": "Beijing",
+      "country": "China",
+      "lat": 40.0799,
+      "lon": 116.6031,
+      "region": "international"
+    },
+    {
+      "id": "HND",
+      "name": "Haneda",
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.5494,
+      "lon": 139.7798,
+      "region": "international"
+    },
+    {
+      "id": "SYD",
+      "name": "Sydney Airport",
+      "city": "Sydney",
+      "country": "Australia",
+      "lat": -33.9461,
+      "lon": 151.1772,
+      "region": "international"
+    },
+    {
+      "id": "MEL",
+      "name": "Melbourne Airport",
+      "city": "Melbourne",
+      "country": "Australia",
+      "lat": -37.669,
+      "lon": 144.841,
+      "region": "international"
+    },
+    {
+      "id": "AKL",
+      "name": "Auckland Airport",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "lat": -38.0051,
+      "lon": 174.7832,
+      "region": "international"
+    },
+    {
+      "id": "YYZ",
+      "name": "Toronto Pearson Int",
+      "city": "Toronto",
+      "country": "Canada",
+      "lat": 43.6777,
+      "lon": -79.6248,
+      "region": "international"
+    },
+    {
+      "id": "GRU",
+      "name": "Guarulhos Int",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "lat": -23.4356,
+      "lon": -46.4731,
+      "region": "international"
+    },
+    {
+      "id": "EZE",
+      "name": "Ministro Pistarini Int",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.815,
+      "lon": -58.5348,
+      "region": "international"
+    },
+    {
+      "id": "JNB",
+      "name": "O. R. Tambo Int",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "lat": -26.1392,
+      "lon": 28.246,
+      "region": "international"
+    },
+    {
+      "id": "CPT",
+      "name": "Cape Town Int",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "lat": -33.9715,
+      "lon": 18.6021,
+      "region": "international"
+    },
+    {
+      "id": "CAI",
+      "name": "Cairo Int",
+      "city": "Cairo",
+      "country": "Egypt",
+      "lat": 30.1219,
+      "lon": 31.4056,
+      "region": "international"
+    },
+    {
+      "id": "IST",
+      "name": "Istanbul Airport",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "lat": 41.2753,
+      "lon": 28.7519,
+      "region": "international"
+    },
+    {
+      "id": "SVO",
+      "name": "Sheremetyevo Int",
+      "city": "Moscow",
+      "country": "Russia",
+      "lat": 55.9726,
+      "lon": 37.4146,
+      "region": "international"
+    },
+    {
+      "id": "MEX",
+      "name": "Mexico City Int",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4361,
+      "lon": -99.0719,
+      "region": "international"
+    },
+    {
+      "id": "BOG",
+      "name": "El Dorado Int",
+      "city": "Bogota",
+      "country": "Colombia",
+      "lat": 4.7016,
+      "lon": -74.1469,
+      "region": "international"
+    },
+    {
+      "id": "LIM",
+      "name": "Jorge Chávez Int",
+      "city": "Lima",
+      "country": "Peru",
+      "lat": -12.0219,
+      "lon": -77.1143,
+      "region": "international"
+    },
+    {
+      "id": "BKK",
+      "name": "Suvarnabhumi",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "lat": 13.69,
+      "lon": 100.7501,
+      "region": "international"
+    },
+    {
+      "id": "KUL",
+      "name": "Kuala Lumpur Int",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.7456,
+      "lon": 101.7099,
+      "region": "international"
+    },
+    {
+      "id": "CGK",
+      "name": "Soekarno-Hatta Int",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "lat": -6.1256,
+      "lon": 106.6558,
+      "region": "international"
+    }
+  ],
+  "routes": [
+    {
+      "from": "JFK",
+      "to": "LHR",
+      "distance_km": 5540,
+      "base_fuel_cost": 37274
+    },
+    {
+      "from": "JFK",
+      "to": "CDG",
+      "distance_km": 5833,
+      "base_fuel_cost": 39734
+    },
+    {
+      "from": "JFK",
+      "to": "FRA",
+      "distance_km": 6188,
+      "base_fuel_cost": 42083
+    },
+    {
+      "from": "JFK",
+      "to": "MEX",
+      "distance_km": 3365,
+      "base_fuel_cost": 23336
+    },
+    {
+      "from": "JFK",
+      "to": "GRU",
+      "distance_km": 7664,
+      "base_fuel_cost": 51573
+    },
+    {
+      "from": "JFK",
+      "to": "LAX",
+      "distance_km": 3974,
+      "base_fuel_cost": 27069
+    },
+    {
+      "from": "JFK",
+      "to": "SFO",
+      "distance_km": 4152,
+      "base_fuel_cost": 28797
+    },
+    {
+      "from": "LAX",
+      "to": "HND",
+      "distance_km": 8812,
+      "base_fuel_cost": 58564
+    },
+    {
+      "from": "LAX",
+      "to": "SYD",
+      "distance_km": 12061,
+      "base_fuel_cost": 79001
+    },
+    {
+      "from": "LAX",
+      "to": "MEX",
+      "distance_km": 2500,
+      "base_fuel_cost": 17739
+    },
+    {
+      "from": "LAX",
+      "to": "SFO",
+      "distance_km": 543,
+      "base_fuel_cost": 4180
+    },
+    {
+      "from": "LHR",
+      "to": "DXB",
+      "distance_km": 5497,
+      "base_fuel_cost": 36531
+    },
+    {
+      "from": "LHR",
+      "to": "DEL",
+      "distance_km": 6731,
+      "base_fuel_cost": 45141
+    },
+    {
+      "from": "LHR",
+      "to": "BOM",
+      "distance_km": 7212,
+      "base_fuel_cost": 48278
+    },
+    {
+      "from": "LHR",
+      "to": "JNB",
+      "distance_km": 9074,
+      "base_fuel_cost": 60669
+    },
+    {
+      "from": "LHR",
+      "to": "IST",
+      "distance_km": 2488,
+      "base_fuel_cost": 16787
+    },
+    {
+      "from": "LHR",
+      "to": "CDG",
+      "distance_km": 346,
+      "base_fuel_cost": 4082
+    },
+    {
+      "from": "LHR",
+      "to": "FRA",
+      "distance_km": 653,
+      "base_fuel_cost": 4882
+    },
+    {
+      "from": "LHR",
+      "to": "AMS",
+      "distance_km": 370,
+      "base_fuel_cost": 3630
+    },
+    {
+      "from": "FRA",
+      "to": "DEL",
+      "distance_km": 6121,
+      "base_fuel_cost": 41442
+    },
+    {
+      "from": "FRA",
+      "to": "DXB",
+      "distance_km": 4843,
+      "base_fuel_cost": 32123
+    },
+    {
+      "from": "FRA",
+      "to": "SIN",
+      "distance_km": 10278,
+      "base_fuel_cost": 67414
+    },
+    {
+      "from": "FRA",
+      "to": "IST",
+      "distance_km": 1838,
+      "base_fuel_cost": 13528
+    },
+    {
+      "from": "FRA",
+      "to": "JNB",
+      "distance_km": 8690,
+      "base_fuel_cost": 58067
+    },
+    {
+      "from": "DXB",
+      "to": "DEL",
+      "distance_km": 2183,
+      "base_fuel_cost": 15831
+    },
+    {
+      "from": "DXB",
+      "to": "BOM",
+      "distance_km": 1925,
+      "base_fuel_cost": 13578
+    },
+    {
+      "from": "DXB",
+      "to": "SIN",
+      "distance_km": 5845,
+      "base_fuel_cost": 38507
+    },
+    {
+      "from": "DXB",
+      "to": "HKG",
+      "distance_km": 5919,
+      "base_fuel_cost": 38987
+    },
+    {
+      "from": "DXB",
+      "to": "SYD",
+      "distance_km": 12043,
+      "base_fuel_cost": 80134
+    },
+    {
+      "from": "DXB",
+      "to": "JNB",
+      "distance_km": 6413,
+      "base_fuel_cost": 42292
+    },
+    {
+      "from": "DXB",
+      "to": "CAI",
+      "distance_km": 2415,
+      "base_fuel_cost": 17169
+    },
+    {
+      "from": "DOH",
+      "to": "LHR",
+      "distance_km": 5240,
+      "base_fuel_cost": 35644
+    },
+    {
+      "from": "DOH",
+      "to": "JFK",
+      "distance_km": 10769,
+      "base_fuel_cost": 71993
+    },
+    {
+      "from": "DOH",
+      "to": "SYD",
+      "distance_km": 12375,
+      "base_fuel_cost": 81739
+    },
+    {
+      "from": "DOH",
+      "to": "DEL",
+      "distance_km": 2548,
+      "base_fuel_cost": 17257
+    },
+    {
+      "from": "DEL",
+      "to": "BOM",
+      "distance_km": 1137,
+      "base_fuel_cost": 8615
+    },
+    {
+      "from": "DEL",
+      "to": "SIN",
+      "distance_km": 4157,
+      "base_fuel_cost": 27708
+    },
+    {
+      "from": "DEL",
+      "to": "BKK",
+      "distance_km": 2947,
+      "base_fuel_cost": 20290
+    },
+    {
+      "from": "DEL",
+      "to": "HND",
+      "distance_km": 5860,
+      "base_fuel_cost": 39202
+    },
+    {
+      "from": "BOM",
+      "to": "SIN",
+      "distance_km": 3920,
+      "base_fuel_cost": 27195
+    },
+    {
+      "from": "BOM",
+      "to": "KUL",
+      "distance_km": 3624,
+      "base_fuel_cost": 24385
+    },
+    {
+      "from": "BOM",
+      "to": "CAI",
+      "distance_km": 4341,
+      "base_fuel_cost": 29734
+    },
+    {
+      "from": "SIN",
+      "to": "SYD",
+      "distance_km": 6294,
+      "base_fuel_cost": 42737
+    },
+    {
+      "from": "SIN",
+      "to": "MEL",
+      "distance_km": 6034,
+      "base_fuel_cost": 41131
+    },
+    {
+      "from": "SIN",
+      "to": "AKL",
+      "distance_km": 8433,
+      "base_fuel_cost": 56528
+    },
+    {
+      "from": "SIN",
+      "to": "HND",
+      "distance_km": 5298,
+      "base_fuel_cost": 35684
+    },
+    {
+      "from": "SIN",
+      "to": "HKG",
+      "distance_km": 2564,
+      "base_fuel_cost": 18407
+    },
+    {
+      "from": "SIN",
+      "to": "CGK",
+      "distance_km": 883,
+      "base_fuel_cost": 6931
+    },
+    {
+      "from": "HND",
+      "to": "HKG",
+      "distance_km": 2902,
+      "base_fuel_cost": 19825
+    },
+    {
+      "from": "HND",
+      "to": "SFO",
+      "distance_km": 8285,
+      "base_fuel_cost": 55745
+    },
+    {
+      "from": "HND",
+      "to": "SYD",
+      "distance_km": 7817,
+      "base_fuel_cost": 51788
+    },
+    {
+      "from": "SYD",
+      "to": "AKL",
+      "distance_km": 2165,
+      "base_fuel_cost": 15955
+    },
+    {
+      "from": "SYD",
+      "to": "SFO",
+      "distance_km": 11949,
+      "base_fuel_cost": 78977
+    },
+    {
+      "from": "GRU",
+      "to": "EZE",
+      "distance_km": 1721,
+      "base_fuel_cost": 11828
+    },
+    {
+      "from": "GRU",
+      "to": "BOG",
+      "distance_km": 4335,
+      "base_fuel_cost": 29367
+    },
+    {
+      "from": "GRU",
+      "to": "LIM",
+      "distance_km": 3474,
+      "base_fuel_cost": 24052
+    },
+    {
+      "from": "GRU",
+      "to": "MAD",
+      "distance_km": 8379,
+      "base_fuel_cost": 56455
+    },
+    {
+      "from": "GRU",
+      "to": "LHR",
+      "distance_km": 9460,
+      "base_fuel_cost": 63235
+    },
+    {
+      "from": "MAD",
+      "to": "EZE",
+      "distance_km": 10086,
+      "base_fuel_cost": 66630
+    },
+    {
+      "from": "MAD",
+      "to": "BOG",
+      "distance_km": 8031,
+      "base_fuel_cost": 52956
+    },
+    {
+      "from": "MAD",
+      "to": "LIM",
+      "distance_km": 9526,
+      "base_fuel_cost": 62590
+    },
+    {
+      "from": "MAD",
+      "to": "LHR",
+      "distance_km": 1243,
+      "base_fuel_cost": 9716
+    },
+    {
+      "from": "JNB",
+      "to": "CPT",
+      "distance_km": 1271,
+      "base_fuel_cost": 9445
+    },
+    {
+      "from": "CAI",
+      "to": "IST",
+      "distance_km": 1262,
+      "base_fuel_cost": 9647
+    },
+    {
+      "from": "CAI",
+      "to": "LHR",
+      "distance_km": 3532,
+      "base_fuel_cost": 23910
+    },
+    {
+      "from": "IST",
+      "to": "DEL",
+      "distance_km": 4565,
+      "base_fuel_cost": 30312
+    },
+    {
+      "from": "IST",
+      "to": "JFK",
+      "distance_km": 8026,
+      "base_fuel_cost": 53803
+    },
+    {
+      "from": "IST",
+      "to": "HKG",
+      "distance_km": 8006,
+      "base_fuel_cost": 52719
+    },
+    {
+      "from": "SVO",
+      "to": "LHR",
+      "distance_km": 2508,
+      "base_fuel_cost": 17635
+    },
+    {
+      "from": "SVO",
+      "to": "IST",
+      "distance_km": 1750,
+      "base_fuel_cost": 13362
+    },
+    {
+      "from": "SVO",
+      "to": "PEK",
+      "distance_km": 5796,
+      "base_fuel_cost": 38933
+    },
+    {
+      "from": "SVO",
+      "to": "DEL",
+      "distance_km": 4364,
+      "base_fuel_cost": 30066
+    },
+    {
+      "from": "PEK",
+      "to": "HKG",
+      "distance_km": 1992,
+      "base_fuel_cost": 14271
+    },
+    {
+      "from": "PEK",
+      "to": "LHR",
+      "distance_km": 8153,
+      "base_fuel_cost": 53674
+    },
+    {
+      "from": "PEK",
+      "to": "SFO",
+      "distance_km": 9492,
+      "base_fuel_cost": 62723
+    },
+    {
+      "from": "YYZ",
+      "to": "LHR",
+      "distance_km": 5707,
+      "base_fuel_cost": 38844
+    },
+    {
+      "from": "YYZ",
+      "to": "FRA",
+      "distance_km": 6342,
+      "base_fuel_cost": 42622
+    },
+    {
+      "from": "YYZ",
+      "to": "JFK",
+      "distance_km": 588,
+      "base_fuel_cost": 4368
+    },
+    {
+      "from": "YYZ",
+      "to": "MEX",
+      "distance_km": 3247,
+      "base_fuel_cost": 21608
+    },
+    {
+      "from": "MEL",
+      "to": "HND",
+      "distance_km": 8158,
+      "base_fuel_cost": 53835
+    },
+    {
+      "from": "EZE",
+      "to": "PEK",
+      "distance_km": 19289,
+      "base_fuel_cost": 126406
+    },
+    {
+      "from": "JFK",
+      "to": "DXB",
+      "distance_km": 11001,
+      "base_fuel_cost": 72639
+    },
+    {
+      "from": "YYZ",
+      "to": "HND",
+      "distance_km": 10346,
+      "base_fuel_cost": 69177
+    },
+    {
+      "from": "DOH",
+      "to": "DXB",
+      "distance_km": 377,
+      "base_fuel_cost": 3752
+    },
+    {
+      "from": "DXB",
+      "to": "CGK",
+      "distance_km": 6546,
+      "base_fuel_cost": 43353
+    },
+    {
+      "from": "SVO",
+      "to": "BKK",
+      "distance_km": 7103,
+      "base_fuel_cost": 47037
+    },
+    {
+      "from": "LAX",
+      "to": "AKL",
+      "distance_km": 10558,
+      "base_fuel_cost": 69363
+    },
+    {
+      "from": "LHR",
+      "to": "SIN",
+      "distance_km": 10881,
+      "base_fuel_cost": 71766
+    },
+    {
+      "from": "BKK",
+      "to": "MEX",
+      "distance_km": 15739,
+      "base_fuel_cost": 103385
+    },
+    {
+      "from": "LIM",
+      "to": "LAX",
+      "distance_km": 6720,
+      "base_fuel_cost": 44890
+    },
+    {
+      "from": "PEK",
+      "to": "CGK",
+      "distance_km": 5238,
+      "base_fuel_cost": 34802
+    },
+    {
+      "from": "LIM",
+      "to": "SIN",
+      "distance_km": 18823,
+      "base_fuel_cost": 123941
+    },
+    {
+      "from": "GRU",
+      "to": "HND",
+      "distance_km": 18539,
+      "base_fuel_cost": 122344
+    },
+    {
+      "from": "YYZ",
+      "to": "SFO",
+      "distance_km": 3627,
+      "base_fuel_cost": 24439
+    },
+    {
+      "from": "HKG",
+      "to": "AKL",
+      "distance_km": 9233,
+      "base_fuel_cost": 61828
+    },
+    {
+      "from": "MEL",
+      "to": "EZE",
+      "distance_km": 11601,
+      "base_fuel_cost": 76408
+    },
+    {
+      "from": "MEX",
+      "to": "FRA",
+      "distance_km": 9551,
+      "base_fuel_cost": 62657
+    },
+    {
+      "from": "JNB",
+      "to": "SYD",
+      "distance_km": 11023,
+      "base_fuel_cost": 72566
+    },
+    {
+      "from": "HND",
+      "to": "SVO",
+      "distance_km": 7494,
+      "base_fuel_cost": 50663
+    },
+    {
+      "from": "BKK",
+      "to": "JNB",
+      "distance_km": 8996,
+      "base_fuel_cost": 60457
+    },
+    {
+      "from": "DEL",
+      "to": "JNB",
+      "distance_km": 8011,
+      "base_fuel_cost": 53716
+    },
+    {
+      "from": "BOG",
+      "to": "LHR",
+      "distance_km": 8473,
+      "base_fuel_cost": 56332
+    },
+    {
+      "from": "SYD",
+      "to": "AMS",
+      "distance_km": 16658,
+      "base_fuel_cost": 109910
+    },
+    {
+      "from": "GRU",
+      "to": "AMS",
+      "distance_km": 9775,
+      "base_fuel_cost": 64862
+    }
+  ]
+}
